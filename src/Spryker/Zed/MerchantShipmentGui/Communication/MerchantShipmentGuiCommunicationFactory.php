@@ -11,10 +11,6 @@ use Spryker\Zed\Kernel\Communication\AbstractCommunicationFactory;
 use Spryker\Zed\MerchantShipmentGui\Dependency\Facade\MerchantShipmentGuiToMerchantFacadeInterface;
 use Spryker\Zed\MerchantShipmentGui\MerchantShipmentGuiDependencyProvider;
 
-/**
- * @method \Spryker\Zed\MerchantShipmentGui\Persistence\MerchantShipmentGuiQueryContainerInterface getQueryContainer()
- * @method \Spryker\Zed\MerchantShipmentGui\MerchantShipmentGuiConfig getConfig()
- */
 class MerchantShipmentGuiCommunicationFactory extends AbstractCommunicationFactory
 {
     /**

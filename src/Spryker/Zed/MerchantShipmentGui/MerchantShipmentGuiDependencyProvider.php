@@ -11,9 +11,6 @@ use Spryker\Zed\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Zed\Kernel\Container;
 use Spryker\Zed\MerchantShipmentGui\Dependency\Facade\MerchantShipmentGuiToMerchantFacadeBridge;
 
-/**
- * @method \Spryker\Zed\MerchantShipmentGui\MerchantShipmentGuiConfig getConfig()
- */
 class MerchantShipmentGuiDependencyProvider extends AbstractBundleDependencyProvider
 {
     /**
