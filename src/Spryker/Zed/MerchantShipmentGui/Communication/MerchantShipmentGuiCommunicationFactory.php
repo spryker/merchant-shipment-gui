@@ -13,9 +13,6 @@ use Spryker\Zed\MerchantShipmentGui\MerchantShipmentGuiDependencyProvider;
 
 class MerchantShipmentGuiCommunicationFactory extends AbstractCommunicationFactory
 {
-    /**
-     * @return \Spryker\Zed\MerchantShipmentGui\Dependency\Facade\MerchantShipmentGuiToMerchantFacadeInterface
-     */
     public function getMerchantFacade(): MerchantShipmentGuiToMerchantFacadeInterface
     {
         return $this->getProvidedDependency(MerchantShipmentGuiDependencyProvider::FACADE_MERCHANT);
