@@ -1,0 +1,9 @@
+{# @var orderItem \Generated\Shared\Transfer\ItemTransfer #}
+
+{% set merchantNames = templateData['merchantName'] | default({}) %}
+
+{% if orderItem.merchantReference and merchantNames[orderItem.merchantReference] is defined %}
+    <div class="merchant-details m-t-xs">
+        <b>{{ 'Sold by' | trans }}:</b> {{ merchantNames[orderItem.merchantReference] }}
+    </div>
+{% endif %}
